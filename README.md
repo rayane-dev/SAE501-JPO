@@ -46,13 +46,18 @@ Dans cette versions vous retrouverez le Back au complet   :
 
 ## Auteurs
 Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
+* **Rayane Masmoudi**
+* **Rayane Abidar**
+* **Matteo Legrand**
+* **Saobane Miantama**
+* **Theo Taubin**
 
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
+https://rayane.eu/home/contirubors
+
 
 _(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
 
-## License
+## Info A Savoir Importante
 
 Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
 
