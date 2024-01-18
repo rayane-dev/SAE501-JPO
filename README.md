@@ -55,12 +55,11 @@ Listez le(s) auteur(s) du projet ici !
 
 
 
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
 ## Info A Savoir Importante
 
 Lien du site internet : https://rayane.eu/ ``/contirubors``
 Le jeu n'a pas été upload sur GitHub en raison de son volume trop execisif qui ne peut pas etre upload malgré l'utilisation de GitHub Desktop
+Mais fonctionne sur le lien : https://rayane.eu/home
 
 Des modifications ont été apporté nottament pour les partie admin et le QUIZZ,et notament la réalisation du backend.
 
