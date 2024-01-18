@@ -64,3 +64,8 @@ Mais fonctionne sur le lien : https://rayane.eu/home
 Des modifications ont été apporté nottament pour les partie admin et le QUIZZ,et notament la réalisation du backend.
 
 Le projet est 100% fonctionnel Front-End et Back-end, nous restons a votre entiere dispositions pour toutes questions sur le projet.
+
+QR CODE:
+<img width="302" alt="Screenshot 2024-01-18 at 07 15 04" src="https://github.com/rayane-dev/SAE501-JPO/assets/95442692/ef701074-eb20-46a7-9f44-6d88f4d5c016">
+
+
