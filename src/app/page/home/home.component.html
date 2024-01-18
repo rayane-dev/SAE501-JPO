@@ -1,0 +1,265 @@
+<main id="main" [class.dark-mode]="isDarkMode">
+    <div class="container" >
+        <div class="left">
+        <h1>Journée &nbsp;<span>Porte Ouverte</span></h1>
+        <p id="subtitle">Explorer l'Avenir à l'IUT Gustave Eiffel : Innovation, Formation et Réussite à Meaux. Rejoignez-nous pour Découvrir votre Potentiel !</p>
+        <div id="cta-visit">
+                <p>Click pour visiter</p>
+                <a routerLink="/game">Visite Virtuelle</a>
+            </div>
+        </div>
+        <div class="right">
+            <img [src]="main_character" alt="" srcset="" class="main_character">
+        </div>
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob1">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob2">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob3">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob4">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob5">
+        <img [src]="blur_snd" alt="" srcset="" id="blur2">
+    </div>
+</main>
+<!-- </div> -->
+<section id="jpo-date" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div class="card-part">    
+        <div class="c1"></div>
+        <div class="c2">
+            <h1>Journée <br>Porte Ouverte</h1>
+            <div id="date-c2">
+                <div class="date">
+                    <span>0</span>
+                </div>
+                <div class="date">
+                    <span>0</span>
+                </div>
+                <p>jours</p>
+            </div>
+        </div>
+    </div>
+</div> 
+</section>
+
+
+
+
+<section id="presentation" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>IUT Meaux gustave eiffel presente </h2>
+    <p id="text-container">
+        <span id="highlight">L'IUT de Meaux</span><span> Gustave Eiffel</span> 
+        <span id="highlight"> forme des </span>
+        <span id="highlight"> forme des professionnels compétents</span>
+        <span id="highlight"> dans un environnement</span>
+        <span id="highlight"> innovant et dynamique.</span>
+    </p>
+</div>
+</section>
+
+<section id="card-ui-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Nos Formations</h2>
+</div>
+<div id="wrapper-card-ui">
+    <div class="card" id="MMI">
+        <div class="left">
+            <div>
+                <h3>BUT MMI</h3>
+                <p>Explorez la création digitale avec MMI. Conception web, communication visuelle, et plus encore ! Façonnez l'avenir du numérique.</p>
+            </div>
+            <a href="../../../assets/info/Documents_JPO.pdf" target="_blank"  class="link-card">Voir document</a>
+        </div>
+        <div class="right">
+            <img [src]="main_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="TC">
+        <div class="left">
+            <div>
+                <h3>BUT TC</h3>
+                <p>Découvrez TC : marketing, vente, gestion. Prêt pour l'univers des affaires et du marketing ?</p>
+            </div>
+            <a href="" class="link-card">Voir document</a>
+        </div>
+        <div class="right">
+            <img [src]="robot_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="GEA">
+        <div class="left">
+            <div>
+                <h3>BUT GEA </h3>
+                <p>Gestion, finance, administration avec GEA. Bâtissez un avenir solide en entreprise.</p>
+            </div>
+            <a href="" class="link-card">Voir document</a>
+        </div>
+        <div class="right">
+            <img [src]="pebble_character" alt="" srcset="">
+        </div>
+    </div>
+        <div class="card" id="CMS">
+        <div class="left">
+            <div>
+                <h3>Licence pro mention CPS</h3>
+                <p>Découvrez la Licence Pro en Droit Immobilier. Expertise juridique dans l'immobilier. Devenez un expert du droit immobilier.</p>
+            </div>
+            <a href="" class="link-card">Voir document</a>
+        </div>
+        <div class="right">
+            <img [src]="explorer_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="assurance">
+        <div class="left">
+            <div>
+                <h3>Licence pro mention assurance</h3>
+                <p>Explorez la Licence Pro en Commercialisation. Marketing, vente, stratégies. Devenez un professionnel recherché.</p>
+                <a href="" class="link-card">Voir document</a>
+            </div>
+            
+        </div>
+        <div class="right">
+            <img [src]="aero_character" alt="" srcset="">
+        </div>
+    </div>  
+</div>
+<div class="container">
+    <div id="button-card">
+        <button  id="button-left" (click)="clickLeft()">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button   id="button-right" (click)="clickRight()" > 
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+</section>
+<section id="exploration" class="reveal" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div class="left">
+        <p id="feature">New feature</p>
+        <h2>Explore ton  futur <br>IUT</h2>
+        <p>Tu peut partciper a une visite guider ou un Quizz sur l'IUT. Choissis celui qui te convient.</p>
+        <a href="">
+            <div id="link_text">
+                <p>voir plus</p>
+            </div>
+        </a>
+    </div>
+    <div class="right">
+        <div class="card">
+            <img [src]="explorer_character" alt="" srcset="">
+            <h3>Visite Virtuel</h3>
+            <p>Particpe a la visite virtuel pour découvrir en avant première ce a quoi ressemble l'IUT</p>
+            <a routerLink="/game">visiter</a>
+        </div>
+        <div class="card">
+            <img [src]="robot_character" alt="" srcset="">
+            <h3>Quizz</h3>
+            <p>Viens particper au quizz pour aider ton prochain IUT à récolter des informations </p>
+            <a routerLink="/quizz">visiter</a>
+        </div>
+    </div>
+</div>
+</section>
+<section id="quote-section" [class.dark-mode]="isDarkMode">
+<h2>Les gens parlent de nous ...</h2>
+<div class="container">
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>À l'IUT Gustave Eiffel, l'excellence et l'innovation se rencontrent. Un lieu où passion et savoir s'unissent pour forger les leaders de demain. Rejoignez-nous et transformez vos rêves en réalité.</p>
+        <span class="name">Rayane Masmoudi</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Forgez votre avenir à l'IUT Gustave Eiffel : un carrefour de connaissances, d'opportunités et d'aspirations. Ici, chaque étudiant est une promesse d'excellence et d'accomplissement.</p>
+        <span class="name">Rayane Abidar </span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>L'IUT Gustave Eiffel, là où l'ambition rencontre l'expertise. Un environnement stimulant pour apprendre, innover et exceller. Ensemble, façonnons l'avenir à travers l'éducation.</p>
+        <span class="name">Théo Thaubin</span>
+        <span class="statut">student</span>
+    </div> 
+</div>
+<div class="container">
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>L'IUT Gustave Eiffel, où les rêves prennent leur envol. Une communauté passionnée qui façonne des réussites exceptionnelles. Joignez-vous à nous pour écrire votre histoire de succès.</p>
+        <span class="name">Saobane</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>À l'IUT Gustave Eiffel, l'avenir est en construction. Nous sommes la pierre angulaire de votre parcours vers l'excellence. Ensemble, nous bâtissons des destins brillants.</p>
+        <span class="name">Matteo Legrand</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>L'IUT Gustave Eiffel, une passerelle vers l'excellence académique et professionnelle. Ici, chaque étudiant est façonné pour briller dans le monde moderne. Soyez prêt à conquérir l'avenir.</p>
+        <span class="name">Esteban Rodriguez</span>
+        <span class="statut">student</span>
+    </div> 
+</div>
+</section>
+<section id="paralax-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Découvre ton IUT</h2>
+    <img [src]="IUT_picture" alt="" srcset="" class="thumbnail">
+</div>
+</section>
+<section id="video-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Nos vidéos</h2>
+
+    <div id="wrapper-video">
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader count="1" animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%', 'border-radius': '15px' }" class="skeleton-loader"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>Video</h3>
+                <p>ajoutée le xx/xx/xx</p>
+            </div>
+        </div>
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader count="1" animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%', 'border-radius': '15px' }" class="skeleton-loader"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>Vidéo</h3>
+                <p>ajoutée le xx/xx/xx</p>
+            </div>
+        </div>
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader  animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%','border-radius': '15px' }"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>Vidéo</h3>
+                <p>ajoutée le xx/xx/xx</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</section>
+<section id="CTA-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div id="CTA">
+        <div>
+            <h2>Pret pour le Quizz</h2>
+            <p>Paricipe au Quizz pour nous aider</p>
+        </div>
+        <a routerLink="/quizz">Commencer le quizz</a>
+    </div>
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b1" >
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b2">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b3">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b4">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b5">
+</div>
+</section>

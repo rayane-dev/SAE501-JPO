@@ -1,0 +1,66 @@
+<section id="quizz-section">
+    <div class="container">
+        <div class="left">
+            <img [src]="main_character" alt="" srcset="">
+            <h2>Visite Virtuel</h2>
+            <a routerLink="/game">Visite</a>
+        </div>
+        
+        <form (ngSubmit)="onSubmit()">
+
+            <h3>Quizz</h3>
+            <div id="form-contain">
+                <div>
+                    <input type="text" placeholder="prénom" [(ngModel)]="formData.prenom" name="prenom">
+                    <input type="text" placeholder="nom" [(ngModel)]="formData.nom" name="nom">
+                </div>
+                <input type="email" placeholder="email" [(ngModel)]="formData.email" name="email">
+                <div>
+                    <select [(ngModel)]="formData.formation" name="formation">
+                        <option value="">--Formation intéressée--</option>
+                        <option value="BUT MMI" selected style="color: gray;">BUT MMI</option>
+                        <option value="TC">TC</option>
+                        <option value="GEA">GEA</option>
+                    </select>
+                    <select [(ngModel)]="formData.niveauEtudes" name="niveauEtudes">
+                        <option value="">--Niveau d'études--</option>
+                        <option value="SANS DIPLOME">SANS Diplome</option>
+                        <option value="BAC">BAC</option>
+                        <option value="BAC+2">BAC+2</option>
+                        <option value="BAC+3">BAC+3</option>
+                        <option value="BAC+5">BAC+5</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="number" placeholder="age" [(ngModel)]="formData.age" name="age">
+                    <select [(ngModel)]="formData.genre" name="genre">
+                        <option value="">--genre--</option>
+                        <option value="homme">homme</option>
+                        <option value="femme">femme</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" id="button-submit" placeholder="Valider">
+        </form>
+        <div class="wrapper">
+            <div id="toast" [style.transform]="toastTransform">
+                <div class="container-1">
+                    <i class="fas fa-check-square"></i>
+                </div>
+                <div class="container-2">
+                    <p>Success</p>
+                    <p>Your changes are saved successfully.</p>
+                </div>
+                <button id="close" (click)="closeToast()">
+                    &times;
+                </button>
+            </div>
+        </div>
+        
+        
+    </div>
+   
+    
+    
+    
+</section>

@@ -1,0 +1,31 @@
+<section id="section-tableau">
+    <div class="container">
+        <button (click)="downloadExcel()">Télécharger Excel</button>
+
+        <div id="tableau">
+            <div id="header-tableau">
+                <h3>Participant</h3>
+            </div>
+            <div class="card-tableau">
+                <p>prenom</p>
+                <p>Nom</p>
+                <p>Age</p>
+                <p>Genre</p>
+                <p>Email</p>
+                <p>Formation</p>
+                <p>Niveau études</p>
+                <p>prenom</p>
+            </div>
+            <div *ngFor="let participant of participants" class="card-tableau">
+                <p>{{ participant.prenom }}</p>
+                <p>{{ participant.nom }}</p>
+                <p>{{ participant.age }}</p>
+                <p>{{ participant.genre }}</p>
+                <p>{{ participant.email }}</p>
+                <p>{{ participant.formation }}</p>
+                <p>{{ participant.niveauEtudes }}</p>
+            </div>
+            
+        </div>
+    </div>
+</section>

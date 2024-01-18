@@ -1,0 +1,82 @@
+<section id="FAQ-section" [class.dark-mode]="isDarkMode">
+
+    <div id="wrapper1">
+        <p id="logo-faq">faq</p>
+        <h2>Question fréquentes</h2>
+        <p id="subtitle">Bienvenue sur notre page FA Neve umpin a allumé <br> des questions sur les momonasies à fournir</p>
+    </div>
+
+    <div id="wrapper2">
+        <div class="line"></div>
+        <div class="question" >
+            <div class="question-top">
+                <h4>Quand auront lieu les Journées Portes Ouvertes de l'IUT Gustave Eiffel de Meaux ?</h4>
+                <i (click)="clickPanel($event)" class="fa-solid fa-chevron-down" id="chevron"></i>
+
+            </div>
+            <p>Réponse : Les Journées Portes Ouvertes auront lieu les [dates exactes]. Consultez notre site pour plus de détails.</p>
+
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            <div class="question-top">
+                <h4>Quels programmes académiques sont offerts par l'IUT Gustave Eiffel ?</h4>
+                <i (click)="clickPanel($event)" class="fa-solid fa-chevron-down" id="chevron"></i>
+
+            </div>
+            <p>Réponse : L'IUT propose une gamme de programmes passionnants dans des domaines tels que BUT MMI, GEA, TC et licence pro: mention activités juridiques, mention assurance, et mention comercialisation de produit et service. Découvrez toutes nos offres sur la home page du site.</p>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            <div class="question-top">
+                <h4>Comment puis-je m'inscrire pour assister à la Journée Portes Ouvertes ?</h4>
+                <i (click)="clickPanel($event)" class="fa-solid fa-chevron-down" id="chevron"></i>
+
+            </div>
+            <p>Il n'y a pas besoin d'inscription pour se présenter à la journée porte ouverte</p>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            <div class="question-top">
+                <h4>Y aura-t-il des visites guidées de l'IUT et des rencontres avec les enseignants ?</h4>
+                <i (click)="clickPanel($event)" class="fa-solid fa-chevron-down" id="chevron"></i>
+            </div>
+            <p>Réponse : Absolument ! Vous aurez l'occasion de participer à des visites guidées de nos installations de pointe et d'interagir avec nos enseignants experts. </p>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div id="wrapper3">
+        <div id="have-questions">
+            <h3>Avez vous d’autre question ?</h3>
+            <p class="subtitle">Si vous avez des question vous pouvez nous envoyer un mail en appuyant sur le bouton contact</p>
+            <button (click)="clickContact()" id="button-contact" >contact</button>
+
+
+
+            
+            <form (ngSubmit)="sendEmail()">
+                <div id="part-first-form">
+                    <input type="text" [(ngModel)]="emailData.sender" name="sender" placeholder="Your email">
+                </div>
+                <div id="part-snd-form">
+                    <input type="text" [(ngModel)]="emailData.name" name="name" placeholder="Your Name">
+                    <input type="text" [(ngModel)]="emailData.subject" name="subject" placeholder="SUBJECT">
+                </div>
+                <div id="part-third-form">
+                    <textarea [(ngModel)]="emailData.message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                </div>
+                <div id="part-button-form">
+                    <button type="submit">
+                        <p>Envoyer</p>
+                    </button>
+                </div>
+            </form>
+            
+            
+            
+        </div>
+        
+
+    </div>
+</section>
+
