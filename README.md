@@ -16,7 +16,7 @@ Angular CLI V16
 
 Une fois le projet installer vous allez :
 
-- placer le dossier saeapi dans htdocs (de XAMPP ou WAMPP)
+- placer le dossier saeapi dans htdocs (de XAMPP ou WAMPP)[Pour la version localhost, la version en ligne est héberger avec la bdd et l'api]
 - et lancer XAMPP
 
 
@@ -67,5 +67,6 @@ Le projet est 100% fonctionnel Front-End et Back-end, nous restons a votre entie
 
 QR CODE:
 <img width="302" alt="Screenshot 2024-01-18 at 07 15 04" src="https://github.com/rayane-dev/SAE501-JPO/assets/95442692/ef701074-eb20-46a7-9f44-6d88f4d5c016">
+
 
 
