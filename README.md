@@ -62,6 +62,6 @@ _(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``
 Lien du site internet : https://rayane.eu/ ``/contirubors``
 Le jeu n'a pas été upload sur GitHub en raison de son volume trop execisif qui ne peut pas etre upload malgré l'utilisation de GitHub Desktop
 
-Des modifications ont été apporté nottament pour les partie admin et le QUIZZ, nous nous sommes concentrer sur la réalisation du backend.
+Des modifications ont été apporté nottament pour les partie admin et le QUIZZ,et notamentla réalisation du backend.
 
 Le projet est 100% fonctionnel Front-End et Back-end, nous restons a votre entiere dispositions pour toutes questions sur le projet.
