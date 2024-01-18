@@ -52,7 +52,7 @@ Listez le(s) auteur(s) du projet ici !
 * **Saobane Miantama**
 * **Theo Taubin**
 
-https://rayane.eu/home/contirubors
+https://rayane.eu/home/``/contirubors``
 
 
 _(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
