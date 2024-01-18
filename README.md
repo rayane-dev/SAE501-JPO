@@ -52,12 +52,14 @@ Listez le(s) auteur(s) du projet ici !
 * **Saobane Miantama**
 * **Theo Taubin**
 
-https://rayane.eu/home/ ``/contirubors``
+
 
 
 _(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
 
 ## Info A Savoir Importante
 
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
-
+Lien du site internet : https://rayane.eu/home/ ``/contirubors``
+Le jeu n'a pas été upload sur GitHub en raison de son volume trop execisif qui ne peut pas etre upload malgré l'utilisation de GitHub Desktop
+Des modifications ont été apporté nottament pour les partie admin et le QUIZZ, nous nous sommes concentrer sur la réalisation du backend.
+Le projet est 100% fonctionnel Front-End et Back-end, nous restons a votre entiere dispositions pour toutes questions sur le projet.
